@@ -1,13 +1,16 @@
+'use client'
 import HomePage from './HomePage'
-import Profile from './pages/Profile'
+import 'tailwindcss/tailwind.css'
 import React from 'react';
+import Signing from './Signing';
+import { LocationProvider } from '../../src/context';
 export default function Home() {
   
-  return (
-    <main>
-      
-    <Profile/>
-    
+   return (
+    <LocationProvider>
+    <main className='bg-white'>
+    <HomePage />
     </main>
+    </LocationProvider>
   )
 }

@@ -1,0 +1,52 @@
+/* Updated CSS for CardLayout */
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding:20px
+}
+
+.card {
+  width: calc(25% - 20px); /* Adjust the width as needed */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #fff; /* Text color for agency name and content */
+  background-color: transparent; /* Initial background color */
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added box-shadow transition */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: rgba(52, 152, 219, 0.7); /* Background color on hover with fade effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Add a shadow on hover */
+}
+
+.card-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-logo img {
+  width: 60px; /* Adjust the logo size as needed */
+  height: 60px; /* Adjust the logo size as needed */
+  border-radius: 45%;
+  background-color: rgba(0, 0, 0, 0.2); /* Background color for the circular logo */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.card-content {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Background color for content */
+}
+
+.card-content h2 {
+  margin-top: 0;
+}

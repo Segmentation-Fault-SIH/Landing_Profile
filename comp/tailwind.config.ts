@@ -1,11 +1,13 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  content: [
+  purge: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/profile/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+ 
   theme: {
     extend: {
       backgroundImage: {
@@ -22,6 +24,7 @@ const config: Config = {
         '90h':'90%',
         '85h':'85%',
         '30h': '30%',
+        '40h': '40%',
         '40screen': '40vh',
         '20screen': '20vh', // You can name it whatever you want, but '90p' is concise and clear.
       },

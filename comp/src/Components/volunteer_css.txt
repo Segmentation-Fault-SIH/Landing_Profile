@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #3BCBBE 50%, white 50%); /* Gradient background */
+  min-height: 100vh; /* Ensure the background covers the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

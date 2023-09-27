@@ -15,7 +15,7 @@ const Content= ({ }) => {
       
     <div className="flex flex-col  bg-teal-500 h-60screen" style={backgroundStyle}>
       <div className="z-3 pt-10 text-center">
-      <h1 className="text-black mb-7 text-4xl">Name</h1>
+      <h1 className="text-black mb-7 text-4xl">National Disaster Response Force (NDRF), India</h1>
       </div>
       <div className="flex flex-row pt-10">
     <div className="flex flex-col w-1/5  h-40screen bg-white ">

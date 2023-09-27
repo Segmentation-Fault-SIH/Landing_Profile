@@ -1,0 +1,37 @@
+/* App.css */
+@import "~font-awesome/css/font-awesome.min.css";
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../Components/assets/SignUpScreen.png'); /* Set the background image URL */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  height: 100vh; /* Set the height of the background to the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000; /* Text color on top of the background */
+}
+button[type="submit"] {
+  background-color: #0e1011; /* Background color */
+  color: #000; /* Text color */
+  border: none; /* Remove button border */
+  padding: 10px 80px; /* Increase horizontal padding for width */
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Change button color on hover */
+button[type="submit"]:hover {
+  background-color: #68a8e9; /* New background color on hover */
+}
+
+.content {
+  color: #000;
+  text-align: center; /* Center the button horizontally */
+  margin-top: 320px; /* Adjust the margin to move the button down */
+}
+/* Add additional styles for your content if needed */
